@@ -245,4 +245,4 @@ def transpile(in_, out):
 
 if __name__ == '__main__':
     import sys
-    transpile(sys.argv[1], sys.argv[2])
+    transpile(sys.argv[0], sys.argv[1])
